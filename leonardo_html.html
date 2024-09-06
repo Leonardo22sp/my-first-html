@@ -1,45 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Primeira Página HTML</title>
+    <title>Top 5 Carros Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .car-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+        }
+        .car-item {
+            background-color: #fff;
+            width: 80%;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .car-item h2 {
+            color: #e74c3c;
+        }
+        .car-item p {
+            color: #555;
+        }
+        .car-item img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        @media (max-width: 768px) {
+            .car-item {
+                flex-direction: column;
+            }
+            .car-item img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Blog do Leonardo Silva</h1>
-        <h2>Neste blog, abordaremos um pouco sobre minha maior paixão, que são os carros!<h2>
-    </header>
+
+    <h1>Top 5 Carros Favoritos</h1>
+
+    <div class="car-list">
+        <div class="car-item">
+            <img src="https://bringatrailer.com/wp-content/uploads/2022/06/1970_dodge_challenger_0001-scaled.jpg?fit=940%2C627" alt="Dodge Challenger 1970">
+            <div>
+                <h2>Dodge Challenger 1970</h2>
+                <p>Um ícone do muscle car americano, o Dodge Challenger 1970 combina um design clássico com potência bruta. Seu motor HEMI V8 e estilo agressivo o tornaram um dos carros mais desejados da sua época.</p>
+            </div>
+        </div>
+
+        <div class="car-item">
+            <img src="https://m.media-amazon.com/images/I/51lT1Jw1viL._AC_UF894,1000_QL80_.jpg" alt="Plymouth Fury 1958">
+            <div>
+                <h2>Plymouth Fury 1958</h2>
+                <p>Famoso por sua aparência no filme "Christine", o Plymouth Fury de 1958 é lembrado por suas linhas elegantes e detalhes cromados. Ele representa o auge do design de carros da década de 50.</p>
+            </div>
+        </div>
+
+        <div class="car-item">
+            <img src="https://bringatrailer.com/wp-content/uploads/2023/10/2019_porsche_911-gt3-rs-weissach_img_8243-59033.jpg?fit=940%2C626" alt="Porsche 911 GT3 RS">
+            <div>
+                <h2>Porsche 911 GT3 RS</h2>
+                <p>Com sua engenharia de precisão alemã, o Porsche 911 GT3 RS é um dos carros esportivos mais refinados do mundo. Ele oferece uma combinação de desempenho de pista e elegância, sendo um favorito entre os entusiastas de carros esportivos.</p>
+            </div>
+        </div>
+
+        <div class="car-item">
+            <img src="https://performance.ford.com/content/fordracing/home/enthusiasts/newsroom/2019/04/black69boss429/_jcr_content/fr-contentItem/image.img.jpg/1602082781256.jpg" alt="Ford Mustang Boss 429 1969">
+            <div>
+                <h2>Ford Mustang Boss 429 1969</h2>
+                <p>O Boss 429 é uma lenda entre os muscle cars. Seu motor 429 de alta potência foi desenvolvido para corridas de alta performance, e seu design robusto faz dele um dos Mustangs mais icônicos de todos os tempos.</p>
+            </div>
+        </div>
+
+        <div class="car-item">
+            <img src="https://i.pinimg.com/736x/35/9b/26/359b2692beca677b335a0031cfcae66c.jpg" alt="Chevrolet Impala 1967">
+            <div>
+                <h2>Chevrolet Impala 1967</h2>
+                <p>O Chevrolet Impala 1967 é um clássico dos carros americanos. Conhecido por seu conforto e design imponente, o Impala se tornou um símbolo da cultura automotiva, sendo até hoje um dos favoritos dos colecionadores.</p>
+            </div>
+        </div>
+    </div>
+
 </body>
-    <section>
-        <h3>Onde começou?</h3>
-        <p>Minha paixão por carros começou desde pequeno, no ano de 2011, quando ajudava meu pai a consertar o nosso carro, um VW Santana Quantum 1989.</p>
-        <img src="https://image1.mobiauto.com.br/images/api/images/v1.0/221945288/transform/fl_progressive,f_webp,q_70,w_592" alt="Imagem de um Santana Quantum">
-    </section>
-    <section>
-        <h3>Top 5 carros favoritos.</h3>
-        <p>
-            <strong>1.Dodge Challenger R/T 1970</strong> - O Challenger é um carro icônico dos anos 70, ele possui um motor 7.0 V8 com mais de 400cv, um estilo imponente e agressivo, um verdadeiro "muscle car" americano.
-        </p>
-        <img src="https://p.turbosquid.com/ts-thumb/j2/sDlHvp/1h/rr_0000/jpg/1671317136/600x600/fit_q87/296fc3cba1716df89a9c3cf3e8e3df5e389b2b30/rr_0000.jpg" alt="Imagem de um Challenger">
-        <p>
-            <strong>2.Plymouth Fury 1958</strong> - Este simpático Plymouth (que de simpático não tem nada) é o ator principal de um filme chamado "Christine: O Carro Assassino", de 1983.
-        </p>
-        <img src="https://lh6.googleusercontent.com/proxy/rL9_buRkbMU1MxL4vNdj6S8xpIgUYF2u-j5DafJmpbkP2kmuTz1MNFK2TgXhAK4zj36VgXH9O1hFCTnOnNGFayEJnh8JM0A0QqmGk7XYggCzxqYPohsHDuwxM3ffCEOi3XqR-mDUJaMWP3nMbMBZxdaAT9-kQg-QOUSo6pTVYB2gwmiKWEhOriHKLfSZ0EQK" alt="Imagem de um Fury">
-        <p>
-            <strong>3.Porsche 911 GT3 RS</strong> - Uma verdadeira obra de arte sobre rodas, este Porsche é o rei das pistas quando se trata de velocidade e aerodinâmica. Com um motor 4.0 boxer, esse carro faz um espetáculo em corridas.
-        </p>
-        <img src="https://configurator.porsche.com/model/2024/992850/common/detail_PP70_m_0.jpg?h=8ad7ad9538b76e37fb326697b0063493" alt="Imagem de uma Porsche">
-        <p>
-            <strong>4.Ford Mustang Boss 429 1969</strong> - Outro ícone dos muscle cars, o Mustang é muito amado pelos fãs de automóveis mundo a fora. Ele conta com um motor 7.0 V8 com 380cv.
-        </p>
-        <img src="https://fotos-jornaldocarro-estadao.nyc3.cdn.digitaloceanspaces.com/wp-content/uploads/2020/04/11210548/walker.jpg" alt="Imagem de um Mustang">
-        <p>
-            <strong>5.Chevrolet Impala Sedan 1967</strong> - Um carro muito famoso por participar da série "Supernatural", é querido por muitas pessoas, além de ser um sedan muito lindo e desejado.
-        </p>
-        <img src="https://bringatrailer.com/wp-content/uploads/2022/08/1967_chevrolet_impala_79b9bade-d13f-41ac-893b-8f006be8438d-51348.jpeg?fit=940%2C627" alt="Imagem de um Impala">
-    </section>
-
-    </section>
-
 </html>
