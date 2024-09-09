@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Carros Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .lista-de-carros {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+        }
+        .carros {
+            background-color: #fff;
+            width: 80%;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .carros h2 {
+            color: #e74c3c;
+        }
+        .carros p {
+            color: #555;
+        }
+        .carros img {
+            width: 250px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+        @media (max-width: 768px) {
+            .carros {
+                flex-direction: column;
+            }
+            .carros img {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Top 5 Carros Favoritos</h1>
+
+    <h2>Olá, me chamo Leonardo e seja bem-vindo a minha primeira página HTML! E para inaugurar, aqui está um Top 5 com meus carros favoritos. Aproveite!</h2>
+
+    <div class="lista-de-carros">
+        <div class="carros">
+            <img src="https://bringatrailer.com/wp-content/uploads/2022/06/1970_dodge_challenger_0001-scaled.jpg?fit=940%2C627" alt="Dodge Challenger 1970">
+            <div>
+                <h2>Dodge Challenger 1970</h2>
+                <p>Um ícone do muscle car americano, o Dodge Challenger 1970 combina um design clássico com potência bruta. Seu motor HEMI V8 e estilo agressivo o tornaram um dos carros mais desejados da sua época.</p>
+            </div>
+        </div>
+
+        <div class="carros">
+            <img src="https://m.media-amazon.com/images/I/51lT1Jw1viL._AC_UF894,1000_QL80_.jpg" alt="Plymouth Fury 1958">
+            <div>
+                <h2>Plymouth Fury 1958</h2>
+                <p>Famoso por sua aparência no filme "Christine", o Plymouth Fury de 1958 é lembrado por suas linhas elegantes e detalhes cromados. Ele representa o auge do design de carros da década de 50.</p>
+            </div>
+        </div>
+
+        <div class="carros">
+            <img src="https://bringatrailer.com/wp-content/uploads/2023/10/2019_porsche_911-gt3-rs-weissach_img_8243-59033.jpg?fit=940%2C626" alt="Porsche 911 GT3 RS">
+            <div>
+                <h2>Porsche 911 GT3 RS</h2>
+                <p>Com sua engenharia de precisão alemã, o Porsche 911 GT3 RS é um dos carros esportivos mais refinados do mundo. Ele oferece uma combinação de desempenho de pista e elegância, sendo um favorito entre os entusiastas de carros esportivos.</p>
+            </div>
+        </div>
+
+        <div class="carros">
+            <img src="https://performance.ford.com/content/fordracing/home/enthusiasts/newsroom/2019/04/black69boss429/_jcr_content/fr-contentItem/image.img.jpg/1602082781256.jpg" alt="Ford Mustang Boss 429 1969">
+            <div>
+                <h2>Ford Mustang Boss 429 1969</h2>
+                <p>O Boss 429 é uma lenda entre os muscle cars. Seu motor 429 de alta potência foi desenvolvido para corridas de alta performance, e seu design robusto faz dele um dos Mustangs mais icônicos de todos os tempos.</p>
+            </div>
+        </div>
+
+        <div class="carros">
+            <img src="https://i.pinimg.com/736x/35/9b/26/359b2692beca677b335a0031cfcae66c.jpg" alt="Chevrolet Impala 1967">
+            <div>
+                <h2>Chevrolet Impala 1967</h2>
+                <p>O Chevrolet Impala 1967 é um clássico dos carros americanos. Conhecido por seu conforto e design imponente, o Impala se tornou um símbolo da cultura automotiva, sendo até hoje um dos favoritos dos colecionadores.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
